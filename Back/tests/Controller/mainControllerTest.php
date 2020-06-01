@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class mainControllerTest extends WebTestCase 
 {
-    public function testPlayList()
+    public function testNavigation()
     {
         $client = static::createClient();
 
