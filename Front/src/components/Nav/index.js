@@ -30,7 +30,7 @@ const Nav = ({
     const trainerName = e.target.textContent;
     mjChangeTrainer(trainerName, users);
   }
-  
+
   return (
     <NavStyled>
       <div className="mobile-tablet">
@@ -72,7 +72,7 @@ const Nav = ({
       </div>
 
       <div className="desktop">
-        <a href="#" className="nav-item">Accueil</a>
+        <a href="http://54.89.22.26/" target="_blank" className="nav-item">Accueil</a>
         <div className="nav-items">
           {isMj &&
             <Dropdown
@@ -92,9 +92,9 @@ const Nav = ({
               </Dropdown.Menu>
             </Dropdown>
           }
-          <a href="#" className="nav-item">Pokemon</a>
-          <a href="#" className="nav-item">Ressources</a>
-          <a href="#" className="nav-item">Compte Joueur</a>
+          <a href="http://54.89.22.26/pokemon/list" target="_blank" className="nav-item">Pokemon</a>
+          <a href="http://54.89.22.26/ressources" target="_blank" className="nav-item">Ressources</a>
+          {/* <a href="#" className="nav-item">Compte Joueur</a> */}
         </div>
       </div>
     </NavStyled>
