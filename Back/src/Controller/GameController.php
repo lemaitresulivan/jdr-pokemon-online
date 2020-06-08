@@ -64,8 +64,8 @@ class GameController extends AbstractController
     // Récupère l'utilisateur connecté via son pseudo
     $username = $this->getUser()->getNickname();
 
-    // if (!@fsockopen('localhost', $port)) { // @change dev
-      if (!@fsockopen('54.89.22.26', $port)) { // @change prod
+    if (!@fsockopen('localhost', $port)) { // @change dev
+    //if (!@fsockopen('54.89.22.26', $port)) { // @change prod
 
       // Insère en BDD l'utilisateur et le port choisi
       $newGame = new GameServer();
@@ -138,7 +138,7 @@ class GameController extends AbstractController
 
       return $this->json("La partie a bien été supprimée");
     }
-    throw $this->createNotFoundException("T'as rien à foutre la !");
+    throw $this->createNotFoundException("Vous n'avez pas le droit de fermer cette partie");
   }
 
 
@@ -163,6 +163,6 @@ class GameController extends AbstractController
 
       return $this->redirectToRoute("game_list");
     }
-    throw $this->createNotFoundException("T'as rien à foutre la !");
+    throw $this->createNotFoundException("Vous n'avez pas le droit de fermer cette partie");
   }
 }
