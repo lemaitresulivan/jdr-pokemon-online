@@ -7,7 +7,7 @@ const pokemonMiddleware = (store) => (next) => (action) => {
     case LOAD_ALL_POKEMONS:
       axios({
         method: 'GET',
-        url: 'http://18-212-198-211/api/pokemons',
+        url: 'http://18.212.198.211/api/pokemons',
       })
         .then((response) => {
           // console.log(response.data);
