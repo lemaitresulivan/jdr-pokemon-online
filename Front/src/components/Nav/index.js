@@ -44,7 +44,7 @@ const Nav = ({
           visible={visible}
         >
           <div className="nav-sidebar">
-            <a href="http://54.89.22.26/" target="_blank" className="nav-item">Accueil</a>
+            <a href="http://18-212-198-211/" target="_blank" className="nav-item">Accueil</a>
             <div className="nav-items">
               <Dropdown
                 trigger={
@@ -63,8 +63,8 @@ const Nav = ({
                   )}
                 </Dropdown.Menu>
               </Dropdown>
-              <a href="http://54.89.22.26/pokemon/list" target="_blank" className="nav-item">Pokemon</a>
-              <a href="http://54.89.22.26/ressources" target="_blank" className="nav-item">Ressources</a>
+              <a href="http://18-212-198-211/pokemon/list" target="_blank" className="nav-item">Pokemon</a>
+              <a href="http://18-212-198-211/ressources" target="_blank" className="nav-item">Ressources</a>
               {/* <a href="#" target="_blank" className="nav-item">Compte Joueur</a> */}
             </div>
           </div>
@@ -72,7 +72,7 @@ const Nav = ({
       </div>
 
       <div className="desktop">
-        <a href="http://54.89.22.26/" target="_blank" className="nav-item">Accueil</a>
+        <a href="http://18-212-198-211/" target="_blank" className="nav-item">Accueil</a>
         <div className="nav-items">
           {isMj &&
             <Dropdown
@@ -92,8 +92,8 @@ const Nav = ({
               </Dropdown.Menu>
             </Dropdown>
           }
-          <a href="http://54.89.22.26/pokemon/list" target="_blank" className="nav-item">Pokemon</a>
-          <a href="http://54.89.22.26/ressources" target="_blank" className="nav-item">Ressources</a>
+          <a href="http://18-212-198-211/pokemon/list" target="_blank" className="nav-item">Pokemon</a>
+          <a href="http://18-212-198-211/ressources" target="_blank" className="nav-item">Ressources</a>
           {/* <a href="#" className="nav-item">Compte Joueur</a> */}
         </div>
       </div>
