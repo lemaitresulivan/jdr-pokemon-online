@@ -42,7 +42,7 @@ const App = ({ isUserReady, hasTrainer, hasPokemon, isUsersNotEmpty, isAllPokemo
               <div className="doc-title">Livre d'Univers</div>
               <div className="doc-description">Ce livre vous permettra de vous plonger dans l'univers Pokémon afin de créer le sénario qui guidera les dresseurs tout au long de la partie.</div>
               <div className="doc-link">
-                <a href="http://54.89.22.26/assets/ressources/Livre%20d'univers%20(v5.5).pdf" target="_blank" className="link"> En savoir plus.</a>
+                <a href="http://18-212-198-211/assets/ressources/Livre%20d'univers%20(v5.5).pdf" target="_blank" className="link"> En savoir plus.</a>
               </div>
               <img src={book} alt="rule book" />
             </div>
@@ -50,7 +50,7 @@ const App = ({ isUserReady, hasTrainer, hasPokemon, isUsersNotEmpty, isAllPokemo
               <div className="doc-title">Livre des Règles</div>
               <div className="doc-description">Ce livre vous permettra de connaitre les règles liées à l'univers JDR Pokémon, notamment les attaques, les lancés des dés et les calculs associés.</div>
               <div className="doc-link">
-                <a href="http://54.89.22.26/assets/ressources/Livre_de_regles_v5.5.pdf" target="_blank" className="link"> En savoir plus.</a>
+                <a href="http://18-212-198-211/assets/ressources/Livre_de_regles_v5.5.pdf" target="_blank" className="link"> En savoir plus.</a>
               </div>
               <img src={dice} alt="rule book" />
             </div>
@@ -58,7 +58,7 @@ const App = ({ isUserReady, hasTrainer, hasPokemon, isUsersNotEmpty, isAllPokemo
               <div className="doc-title">Le tableaux de marges</div>
               <div className="doc-description">Cette documentation vous permettra de prendre connaissance des marges dans la réalisation des actions des dresseurs.</div>
               <div className="doc-link">
-                <a href="http://54.89.22.26/assets/ressources/Marge.png" target="_blank" className="link"> En savoir plus.</a>
+                <a href="http://18-212-198-211/assets/ressources/Marge.png" target="_blank" className="link"> En savoir plus.</a>
               </div>
               <img src={calculator} alt="rule book" />
             </div>

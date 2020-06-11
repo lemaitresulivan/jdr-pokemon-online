@@ -8,7 +8,7 @@ const trainerMiddleware = (store) => (next) => (action) => {
     case LOAD_ALL_TRAINERS:
       axios({
         method: 'GET',
-        url: 'http://54.89.22.26/api/trainers',
+        url: 'http://18-212-198-211/api/trainers',
       })
         .then((response) => {
           // console.log(response.data);

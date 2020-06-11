@@ -14,7 +14,7 @@ const logMiddleware = (store) => (next) => (action) => {
 
   switch (action.type) {
     case WS_CONNECT:
-      socket = io.connect(`http://54.89.22.26:${port}`); // @change prod
+      socket = io.connect(`http://18-212-198-211:${port}`); // @change prod
       // socket = io.connect(`http://localhost:${port}`); 
       // socket = window.io(`http://localhost:${port}`); // @change dev
       // Happened after case SOMETHING
